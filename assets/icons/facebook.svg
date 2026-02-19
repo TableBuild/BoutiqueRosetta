@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Contenedor suave (opcional: quita si no quieres marco) -->
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+  <!-- "f" estilizada -->
+  <path d="M13 21v-7h2.2l.4-3H13V9.5c0-.7.3-1.5 1.5-1.5H16V5.2s-.9-.2-1.9-.2C12 5 11 6.4 11 8.6V11H9v3h2v7"/>
+</svg>

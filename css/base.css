@@ -8,7 +8,7 @@ html { scroll-behavior: smooth; }
 
 :root{
   /* Paleta corporativa */
-  --color-bg: #fffafc;
+  --color-bg: #f3d8e3;
   --color-surface: #ffffff;
   --color-primary: #f2a7c0;      /* rosa pastel */
   --color-primary-600: #e18ead;

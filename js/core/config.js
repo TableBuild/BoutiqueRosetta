@@ -5,8 +5,8 @@ export const APP_CONFIG = Object.freeze({
   currency: { locale: 'es-CO', code: 'COP', maxFraction: 0 },
   // WhatsApp FAB
   whatsapp: {
-    phone: '573000000000', // +57 300 000 0000 sin espacios
-    defaultMessage: 'Hola, quiero información sobre las pijamas.',
+    phone: '573125847042', // Número sin espacios o símbolos, con código de país
+    defaultMessage: 'Hola, Boutique Rosetta, me gustaría obtener más información sobre las pijamas.',
   },
   // API preparada (usar HTTPS siempre)
   api: {

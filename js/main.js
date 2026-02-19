@@ -60,6 +60,37 @@ function initSmoothNav() {
   });
 }
 
+
+function createWhatsAppFAB({ phone, text }) {
+  const root = document.getElementById('whatsapp-fab-root');
+  if (!root) return;
+
+  const encoded = encodeURIComponent(text || 'Hola, Boutique Rosetta, me gustaría obtener más información.');
+  const url = `https://wa.me/${phone}?text=${encoded}`;
+
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.target = '_blank';
+  anchor.rel = 'noopener noreferrer';
+  anchor.className = 'wa-fab';
+  anchor.setAttribute('aria-label', 'Abrir chat de WhatsApp');
+
+  const img = document.createElement('img');
+  img.src = './assets/icons/whatsapp.svg';
+  img.alt = '';
+  img.setAttribute('aria-hidden', 'true');
+
+  anchor.appendChild(img);
+  root.appendChild(anchor);
+}
+
+// Llamada con tu número y mensaje:
+createWhatsAppFAB({
+  phone: '573125847042',
+  text: 'Hola, Boutique Rosetta, me gustaría obtener más información.'
+});
+
+
 function init() {
   initYear();
   initSmoothNav();

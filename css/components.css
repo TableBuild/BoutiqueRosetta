@@ -131,7 +131,7 @@
 .whatsapp-fab{
   position: fixed; right: 16px; bottom: 16px; z-index: 60;
   width: 56px; height: 56px; border-radius: 999px; display: grid; place-items: center;
-  background: #25d366; color: #fff; box-shadow: var(--shadow-md); text-decoration: none;
+  background: #17f066; color: #fff; box-shadow: var(--shadow-md); text-decoration: none;
   transition: transform .2s ease, filter .2s ease;
 }
 .whatsapp-fab:hover{ filter: brightness(1.05); transform: translateY(-1px); }
